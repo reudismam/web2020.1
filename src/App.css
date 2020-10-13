@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+#page #container .logo {
+  width: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#page {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#page #container {
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#page #container .branding {
+  display: flex;
+  width: 280px;
+  align-items: center;
 }
+
+#page #container .branding .logo {
+  border-right: solid 2px var(--cinza);
+  padding-right: 20px;
+}
+
+#page #container .topo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#page #container {
+  margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.branding {
+  margin-right: auto;
+  color: var(--cinza);
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  width: 200px;
+}
+
+.logo {
+  height: 2.4rem;
+  border-right: solid 1px var(--cinza);
+  padding-right: 2rem;
+}
+
+.branding h3 {
+  font-size: 1.6rem;
+  color: var(--cinza-escuro);
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.container .user {
+  width: 50px;
+  height: 50px;
+  background-color: var(--azul);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .user p {
+  color: var(--branco);
+  font-size: 2.4rem;
+}
+
+.container .user-details {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.container .user-details > p {
+  margin-left: 20px;
+}
+
+.container .user-details > p span {
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 20px;
+  color: var(--cinza)
+}
+
+.close {
+  width: 20px;
+  color: var(--branco);
+}
+
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+
+.login {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.login a {
+  text-decoration: none;
+  border: 1px solid var(--cinza);
+  display: flex;
+  height: 4rem;
+  justify-content: center;
+  width: 200px;
+  align-items: center;
+  font-size: 1.6rem;
+  border-radius: 0.8rem;
+  color: var(--cinza);
+}
+
+.main-article {
+  background-color: tomato;
+  width: 70%;
+  margin: auto;
+}*/

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cinza: #878787;
+}
+
+body {
+    font-family: 'Pinyon Script', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cinza: #878787;
+    --cinza-escuro: #646464;
+    --azul: #78909C;
+    --branco: #fefefe;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}*/
