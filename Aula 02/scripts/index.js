@@ -1,24 +1,28 @@
-var root = document.querySelector('#root');
+const root = document.querySelector('#app');
 
-console.log(root);
+var tobeinserted = document.createElement('h1');
+tobeinserted.textContent = "Olha aê";
 
-var tobeadded = document.createElement("h1");
-tobeadded.textContent = "Minha página linda";
+root.append(tobeinserted);
 
-console.log(tobeadded);
+const texto = "Outro Texto";
 
-root.append(tobeadded);
+const h1Element = `<h1>${texto}</h1>`;
+
+root.insertAdjacentHTML('beforeend', h1Element);
 
 function novoElemento(tag, content) {
     return `<${tag}>${content}</${tag}>`;
 }
 
+const pElement = novoElemento('p', 'Este é um elemento p');
+root.insertAdjacentHTML('beforeend', pElement);
 
-root.insertAdjacentHTML("beforeend", "<p>Reudismam</p>");
-root.insertAdjacentHTML("beforeend", novoElemento('h1', 'Reudismam'));
+console.log(tobeinserted);
+console.log(root);
 
 function h1(css, ...values) {
-    return `<h1 style="${[...css]}">${values}</h1>`
+    return `<h1 style="${css}">${values}</h1>`
 }
 
 function li(css, ...values) {
@@ -26,73 +30,63 @@ function li(css, ...values) {
 }
 
 function ul(css, ...values) {
-    return `<ul style="${css}">${values}</ul>`
+    return `<ul style="${css}">${values}</ul>`;
 }
 
 function div(css, lista1, lista2) {
     return `<div style="${css}">${lista1 + lista2}</div>`
 }
 
-
-const tag = h1`
-    background-color: blue;
-    font-size: 100px;
-    ${"Reudismam"}
-]`
+const h1Styled = h1`
+    background-color: purple;
+    ${"Este é o conteúdo do H1"}
+`
 
 const li1 = li`
-    ${"Arroz"}
+    ${"Rapadura"}
 `
 
 const li2 = li`
-    ${"Feijão"}
+    ${"Batida"}
 `
 
 const li3 = li`
-    ${"Bife"}
+    ${"Alfinin"}
 `
 
 const li4 = li`
-    ${"Batata"}
+    ${"Arroz"}
 `
 
 const li5 = li`
-    ${"Cenoura"}
+    ${"Feijão"}
 `
 
 const li6 = li`
-    ${"Cebola"}
+    ${"Cuscuz"}
 `
 
 const lista = ul`
-    background-color: tomato;
-    list-style: none;
-    font-size: 3rem;
+    background-color: violet;
     ${li1 + li2 + li3}
 `
 
-const lista2 = ul`
-    background-color: purple;
-    list-style: none;
-    font-size: 3rem;
+const listaFeira = ul`
+    background-color: pink;
     ${li4 + li5 + li6}
 `
 
-
-
-
-
-root.insertAdjacentHTML('beforeend', tag);
-
-console.log(tag);
-
-console.log(lista);
-root.insertAdjacentHTML('beforeend', lista);
-
-const divisao = div`
-    background-color: violet;
+const divStyled = div`
+    background-color: green;
     ${lista}
-    ${lista2}
+    ${listaFeira}
 `
-console.log(divisao);
-root.insertAdjacentHTML('beforeend', divisao);
+
+console.log(li1);
+console.log(lista);
+
+console.log(h1Styled);
+root.insertAdjacentHTML('beforeend', h1Styled);
+root.insertAdjacentHTML('beforeend', lista);
+root.insertAdjacentHTML('beforeend', listaFeira);
+root.insertAdjacentHTML('beforeend', divStyled);
