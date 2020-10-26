@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.example {
+    background-color: darkgray;
+    /*Para ser usado com o display inline*/
+    text-align: center;
+}
+
+.example-item {
+    background: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 150px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.example-item.first {
+    background-color: aqua;
+}
+
+.example-item.second {
+    background-color: brown;
+}
+
+.example-item.third {
+    background-color: coral;
+}
+
+li {
+    list-style: none;
+}
+
+

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.example {
+    background-color: darkgray;
+}
+
+.example-item {
+    background: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 33.333%;
+    height: 150px;
+    display: block;
+}
+
+.example-item.first {
+    background-color: aqua;
+}
+
+.example-item.second {
+    background-color: brown;
+}
+
+.example-item.third {
+    background-color: coral;
+}
+
+li {
+    list-style: none;
+}
+
+.first {
+    margin-right: auto;
+}
+
+.second {
+    margin-left: auto;
+}
+
+.third {
+    margin: 0 auto;
+}
