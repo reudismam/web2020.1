@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.example {
+}
+
+.example-item {
+    display: block;
+    width: 33%;
+    height: 150px;
+}
+
+.example-item.first {
+    background-color:darksalmon;
+}
+
+.example-item.second {
+    background-color:deeppink;
+    margin-left: auto;
+}
+
+.example-item.third {
+    background-color: blueviolet; 
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+li {
+    list-style: none;
+}
