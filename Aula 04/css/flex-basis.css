@@ -1,0 +1,41 @@
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+    font-size: 1.5em;
+    flex-basis: auto;
+}
+
+/* Flex Container */
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid #ccc;
+}
+
+/* FLEX BASIS AUTO FIM */
+
+/* FLEX BASIS 0 */
+
+/* Com o flex-basis 0, itens com flex-grow 1 tentam ficar com o mesmo tamanho total de width. É por isso que o mais comum é utilizar flex-basis 0 */
+.basis-0 {
+	flex-grow: 1;
+}
+
+/* O tamanho total é de duas vezes dos itens com flex: 1; */
+.basis-0-grow-2 {
+	flex-grow: 2;
+}
+
+/* A definição do width é ignorada. Porém ele ainda respeita a definição de min-width. */
+.basis-0-width {
+	flex-grow: 1;
+	width: 120px;
+	min-width: 80px;
+}
+
+/* Flex basis 0 com flex-grow 0, não influenciar em nada no item. Assim o mesmo fica do tamanho do seu conteúdo. */
+.basis-0-grow-0 {
+	flex-grow: 0;
+}

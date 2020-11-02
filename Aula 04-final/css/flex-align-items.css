@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    border: 1px solid #828282;
+    display: flex;
+    width: 800px;
+    height: 300px;
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+}
+
+.item {
+    background-color: tomato;
+    margin: 5px;
+}
+
+.primeiro {
+    padding-top: 100px;
+}

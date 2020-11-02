@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container {
+    display: flex;
+}
+
+.item {
+    background-color: tomato;
+    margin: 5px;
+}

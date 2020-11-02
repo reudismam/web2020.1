@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    border: 1px solid #828282;
+    display: flex;
+    width: 200px;
+    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    flex-flow: row wrap-reverse;
+    flex-flow: column wrap-reverse;
+}
+
+.item {
+    background-color: tomato;
+    margin: 5px;
+}

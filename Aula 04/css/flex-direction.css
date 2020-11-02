@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    flex-direction: inherit;
+}
+.item {
+    background-color: tomato;
+    margin: 5px;
+}

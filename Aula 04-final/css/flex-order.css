@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    border: 1px solid #828282;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    align-items: flex-start;
+}
+
+.item {
+    background-color: tomato;
+    margin: 5px;
+}
+
+.primeiro {
+    order: 5;
+    align-self: center;
+}
+
+.segundo {
+    order: 3;
+    align-self: flex-end;
+}
+
+.terceiro  {
+    order: 2;
+}
+
+.quarto {
+    order: 1;
+}
+
+.quinto {
+    order: 4;
+}

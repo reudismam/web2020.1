@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid #828282;
+    width: 1000px;
+    height: 100px;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;
+    align-items: baseline;
+}
+
+.item {
+    background-color: tomato;
+    margin: 5px;
+}
+.primeiro {
+    width: 100px;
+}
+
+.segundo {
+    padding-top: 30px;
+    width: 100px;
+}

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid #828282;
+    width: 1000px;
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.item {
+    background-color: tomato;
+    margin: 5px;
+}
